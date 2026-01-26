@@ -1,0 +1,32 @@
+TaskNest/
+├── manage.py
+├── requirements.txt
+├── tasknest/                    # Main project directory
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+├── tasks/                       # Tasks app
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── urls.py
+│   ├── views.py
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── templates/
+│   │   └── tasks/
+│   │       ├── base.html
+│   │       ├── login.html
+│   │       ├── register.html
+│   │       ├── dashboard.html
+│   │       ├── task_form.html
+│   │       └── task_detail.html
+│   └── static/
+│       └── tasks/
+│           └── css/
+│               └── style.css
+└── media/

@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.badge {
+    padding: 5px 10px;
+    font-size: 0.85rem;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f3f5;
+}
